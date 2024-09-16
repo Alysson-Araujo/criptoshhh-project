@@ -1,4 +1,5 @@
 import ContainerInfo from "@/app/_components/containerInfo";
+import './style.css';
 
 export default function AboutEncryption() {
   return (

@@ -1,0 +1,50 @@
+.form-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.form-input{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.form-textarea{
+    box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        width: 500px;
+        height: 80px;
+        resize: none;  
+        overflow-y: auto;
+}
+
+.btn-group-form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 24px;
+    gap: 18px;
+}
+
+.btn-form{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8C0F1A;
+    color: aliceblue;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.label-form{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: aliceblue;
+}

@@ -1,0 +1,27 @@
+.container-about-encryption {
+    background-color: rgba(30,33,34,255);
+    border-radius: 10px;
+    color: aliceblue;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 80%; 
+    margin-bottom: 20px;
+}
+
+.title-about-encryption {
+    margin-top: 0;
+}
+
+.button-about-encryption {
+    background-color: red;
+    border-color: red;
+    border-radius: 8px;
+    color: aliceblue;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

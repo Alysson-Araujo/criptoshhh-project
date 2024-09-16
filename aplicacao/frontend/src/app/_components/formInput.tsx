@@ -5,7 +5,7 @@ export default function FormInput(props: InputProps) {
     return(
         <input 
             type={props.type}
-            className={props.variant}
+            className={props.className}
             placeholder={props.placeholder}
             onChange={props.onChange}
             value={props.value}
