@@ -9,6 +9,7 @@ export default function FormInput(props: InputProps) {
             placeholder={props.placeholder}
             onChange={props.onChange}
             value={props.value}
+            disabled={props.avaliable}
         />
     )
 }

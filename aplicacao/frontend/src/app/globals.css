@@ -50,8 +50,36 @@ body {
 }
 
 footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* O footer ocupa toda a largura da página */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Inclui o padding na largura */
+  
+  background-color: #1E2122;
 }
 
+.page-form{
+  max-width: 500px; 
+  margin: 0 auto; 
+  flex: 1;
+}
+
+.example-encryption{
+  width: 30%;
+  margin: 30px auto;
+  padding-left: 40px;
+  background-color: #333  ;
+}
+
+.container-form-page-encryption{
+  display: flex;
+  justify-content: center;  
+  align-items: flex-start; 
+  gap: 20px;  
+  padding: 20px;  
+}

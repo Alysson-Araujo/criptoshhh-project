@@ -8,11 +8,13 @@ export default function SubstitutionEncryption() {
   return (
     <div>
       <Header />
-      <h1>Substitution Encryption</h1>
-      <Form
-        value="Substitution"
-        placeholdershift="example: ZYXWVUTSRQPONMLKJIHGFEDCBA"
-      />
+      <div className="page-form">
+        <h1>Substitution Encryption</h1>
+        <Form
+          value="Substitution"
+          placeholdershift="example: ZYXWVUTSRQPONMLKJIHGFEDCBA"
+        />
+      </div>
       <Footer />
     </div>
   );
